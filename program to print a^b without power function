@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main(){
+   int a,b,c=0,d=1,e,f;
+   printf("enter a and b: ");
+   scanf("%d%d",&a,&b);
+   c=b;
+   if (b==0){
+       printf("a to the power b is 1");
+   }
+   else{
+   while(b>0){
+       d=d*a;
+       b--;
+   }}
+   printf("a to the power b is : %d",d);
+}
